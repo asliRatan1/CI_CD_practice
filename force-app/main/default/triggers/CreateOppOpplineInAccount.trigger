@@ -20,6 +20,6 @@ trigger CreateOppOpplineInAccount on Asset (after insert) {
         oppList.add(opp);
     }
     insert oppList;
-    System.debug('Working with sameer');
+    System.debug('Working with sameer and anmol');
     
 }
