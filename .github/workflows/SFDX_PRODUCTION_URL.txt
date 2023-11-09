@@ -1,1 +1,1 @@
-sfdx force:auth:web:login -a shinywise4-dev-ed.develop.my.salesforce.com
+sfdx force:auth:web:login -r https://test.salesforce.com -a ATiwa
