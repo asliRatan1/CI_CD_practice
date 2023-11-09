@@ -1,0 +1,1 @@
+sfdx force:auth:web:login -a shinywise4-dev-ed.develop.my.salesforce.com
