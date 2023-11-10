@@ -15,7 +15,7 @@ trigger AmountInAccountUsingContact on Contact (after Update) {
         acc.Id = opp.AccountId;
         acc.Total_Amount_From_Opp_using_Contact__c = opp.Amount;
         accList.add(acc);
-        System.debug('We are best');
+        System.debug('We are best hero');
     }
     update  accList;    
 }
